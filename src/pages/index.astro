@@ -1,27 +1,25 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>TennVA UNITED!</h1>
-			<p>
-				Welcome to our website. We're working on setting everything up.
-			</p>
-			<p>
-				If you want to get in contact, email us at 
-				<a href="mailto:info@tennvaunited.org">info@TennVaUnited.org</a>
-			</p>
-			<!-- <p>Here are a few ideas on how to get started with the template:</p>
+<html lang='en'>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>TennVA UNITED!</h1>
+      <p>Welcome to our website. We're working on setting everything up.</p>
+      <p>
+        If you want to get in contact, email us at
+        <a href="mailto:info@tennvaunited.org">info@TennVaUnited.org</a>
+      </p>
+      <!-- <p>Here are a few ideas on how to get started with the template:</p>
 			<ul>
 				<li>Edit this page in <code>src/pages/index.astro</code></li>
 				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
@@ -40,7 +38,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 					>astro-blog-template
 				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
 			</p> -->
-		</main>
-		<Footer />
-	</body>
+    </main>
+    <Footer />
+  </body>
 </html>
