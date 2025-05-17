@@ -133,6 +133,11 @@ hr {
   margin-right: auto;
   width: 90%;
 }
+
+.scroll{
+  overflow-y: scroll;
+}
+
 @media (max-width: 720px) {
   body {
     font-size: 18px;
